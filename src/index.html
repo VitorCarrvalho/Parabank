@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Parabank</title>
+
+		<!-- CSS Files -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="assets/css/scrollCue.css">
+        <link rel="stylesheet" href="assets/css/remixicon.css">
+        <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+		<link rel="stylesheet" href="assets/css/odometer.min.css">
+        <link rel="stylesheet" href="assets/css/magnific.popup.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+
+        <link href="assets/images/favicon.png" type="image/x-icon" rel="icon">
+    </head>
+
+    <body>
+
+        <!-- Start Modal -->
+		 <!--
+		
+		
+		 
+        <div class="modal search-modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                                <button type="submit"><i class="ri-search-2-line"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="ri-close-line"></i></button>
+        </div>
+		-->
+        <!-- End Modal -->
+
+		<!-- Start Navbar Area --> 
+		<div class="navbar-area fixed-top">
+			<div class="mobile-responsive-nav">
+				<div class="container">
+					<div class="mobile-responsive-menu">
+						<div class="logo">
+							<a href="index.html">
+								<img src="assets/images/black-logo.png" class="main-logo" alt="logo">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="desktop-nav">
+				<div class="container-fluid">
+					<nav class="navbar navbar-expand-md navbar-light">
+						<a class="navbar-brand me-0" href="index.html">
+							<img src="assets/images/black-logo.png" class="black-logo" alt="logo">
+						</a>
+
+						<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+							<ul class="navbar-nav m-auto">
+								<li class="nav-item">
+									<a href="index.html" class="nav-link">
+										Início
+									</a>
+								</li>
+								<li class="nav-item">
+									<a href="https://shop.parabank.com.br/" target="_blank" class="nav-link">
+										Marketplace 
+									</a>
+								</li>
+
+								<li class="nav-item">
+									<a href="#" class="nav-link dropdown-toggle">
+										Produtos 
+									</a>
+
+									<ul class="dropdown-menu">
+										<li class="nav-item">
+											<a href="#parceiros" class="nav-link">Parceiros</a>
+										</li>
+										<li class="nav-item">
+											<a href="contact.html" class="nav-link">Se torne um parceiro</a>
+										</li>
+										<li class="nav-item">
+											<a href="privacy-policy.html" class="nav-link">Política de privacidade</a>
+										</li>
+										<li class="nav-item">
+											<a href="terms-conditions.html" class="nav-link">Termos e condições</a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="nav-item">
+									<a href="contact.html" class="nav-link">Fale conosco</a>
+								</li>
+							</ul>
+
+							<div class="others-options">
+								<ul>
+									<!--
+									
+									
+                                    <li>
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <i class="ri-search-line"></i>
+                                        </button>
+                                    </li>
+									-->
+									<li>
+                                        <a class="default-btn-2 text-decoration-none" href="https://webbanking.parabank.secure.srv.br/create-account" target="_blank">
+											<i class="ri-bank-card-2-line"></i>
+											&emsp;Quero ser Parabank!&emsp;
+										</a>
+										<div class=""></div>
+                                        <a class="quote d-none text-decoration-none" href="contact.html">
+											<i class="ri-chat-quote-line"></i>
+										</a>
+									</li>
+									<li>
+                                        <a class="default-btn text-decoration-none" href="https://accounts.parabank.secure.srv.br/auth/realms/parabank/protocol/openid-connect/auth?client_id=wl-webbanking&redirect_uri=https%3A%2F%2Fwebbanking.parabank.secure.srv.br%2Fapp%2Fvalidate-qrcode&state=7d91f0ed-6752-494d-8ca5-27f4eff06ef0&response_mode=fragment&response_type=code&scope=openid&nonce=02c57118-4194-4b71-b2de-b6995d384ca2" target="_blank">
+											<i class="ri-arrow-right-line"></i>
+											&emsp;Login&emsp;
+										</a>
+										<div class=""></div>
+                                        <a class="quote d-none text-decoration-none" href="contact.html">
+											<i class="ri-chat-quote-line"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+
+			<div class="others-option-for-responsive">
+				<div class="container">
+					<div class="dot-menu">
+						<div class="inner">
+							<div class="circle circle-one"></div>
+							<div class="circle circle-two"></div>
+							<div class="circle circle-three"></div>
+						</div>
+					</div>
+					
+					<div class="container">
+						<div class="option-inner">
+							<div class="others-options justify-content-center d-flex align-items-center">
+								<ul>
+                                    <li>
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            <i class="ri-search-2-line"></i>
+                                        </button>
+                                    </li>
+									<li>
+                                        <a class="quote text-decoration-none" href="contact.html">
+											<i class="ri-chat-quote-line"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Navbar Area -->
+
+		<!-- Start Hero Area -->
+		<div class="hero-area">
+			<div class="container-fluid">
+				<div class="hero-content" data-cues="slideInUp">
+					<div class="title">
+						<span class="d-block"></span>
+						<h1>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</h1>
+						<p>Baixe o nosso app </p>
+					</div>
+					<div class="hero-button d-flex align-items-center ">
+						<a class="demo text-decoration-none" href="https://apps.apple.com/tt/app/parabank/id1606960244" target="_blank">
+							<i class="ri-apple-fill"></i> 
+								Apple Store
+							<div class=""><p>&emsp;&emsp;</p></div>
+						</a>
+					</div>
+					<div>
+						<h1>&emsp;</h1>
+					</div>
+					<div class="hero-button d-flex align-items-center">
+						<a class="demo text-decoration-none" href="https://play.google.com/store/apps/details?id=br.srv.secure.app.parabank " target="_blank">
+							<i class="ri-google-play-fill"></i>
+								Google Play
+							<div class=""><p>&emsp;&emsp;</p></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="shape-1">
+				<img src="assets/images/shape/shape-1.png" alt="hero-shape">
+			</div>
+		</div>
+		<!-- End Hero Area -->
+
+		<!-- Start Security Area -->
+		<div class="security-area pb-75 top-70">
+			<div class="container-fluid">
+				<div class="row" data-cues="fadeIn">
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-security-info">
+							<div class="date">
+								01
+							</div>
+							<h3>
+								<a class="text-decoration-none" href="https://webbanking.parabank.secure.srv.br/create-account" target="_blank">Banco digital</a>
+							</h3>
+							<p>Conta 100% digital grátis e com serviços personalizados pra você!</p>
+							<a class="read-more text-decoration-none" href="https://webbanking.parabank.secure.srv.br/create-account" target="_blank">
+								Abrir minha conta
+								<i class="ri-arrow-right-line"></i>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-security-info">
+							<div class="date">
+								02
+							</div>
+							<h3>
+								<a class="text-decoration-none" href="https://shop.parabank.com.br/" target="_blank">Marketplace</a>
+							</h3>
+							<p>Conheça nosso ecossistema de soluções para PCD's.</p>
+							<a class="read-more text-decoration-none" href="https://shop.parabank.com.br/" target="_blank">
+								Acessar
+								<i class="ri-arrow-right-line"></i>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-security-info">
+							<div class="date">
+								03
+							</div>
+							<h3>
+								<a class="text-decoration-none" href="service-details.html">Crédito</a>
+							</h3>
+							<p>Crédito para comprar sua cadeira de rodas, prótese ou ortese.</p>
+							<a class="read-more text-decoration-none" href="service-details.html">
+								Simular agora
+								<i class="ri-arrow-right-line"></i>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-security-info">
+							<div class="date">
+								04
+							</div>
+							<h3>
+								<a class="text-decoration-none" href="https://parainstituto.org/" target="_blank">Para-instituto</a>
+							</h3>
+							<p>Transformamos vidas através da reabilitação física, esportiva, apoio psicológico e capacitação profissional!</p>
+							<a class="read-more text-decoration-none" href="https://parainstituto.org/" target="_blank">
+								Conhecer
+								<i class="ri-arrow-right-line"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Security Area -->
+
+		<!-- Start About Area -->
+		<div class="about-area pb-75">
+			<div class="container">
+				<div class="about-title-area">
+					<div class="row align-items-center" data-cue="slideInUp">
+						<div class="col-lg-6">
+							<div class="about-title">
+								<span class="d-block">BANCO DIGITAL</span>
+								<h2>O primeiro banco digital no Mundo feito com, por e para PCD's.</h2>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="about-title">
+								<p>Conta 100% digital grátis e com serviços personalizados pra você!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row"   data-cue="slideInUp">
+					<div class="col-lg-6">
+						<div class="about-image">
+							<div class="image-1">
+								<img src="assets/images/about/about-1.png" alt="about-image">
+							</div>
+							<div class="image-2">
+								<img src="assets/images/about/about-2.png" alt="about-image">
+							</div>
+							<div class="image-3">
+								<img src="assets/images/about/about-3.png" alt="about-image">
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="about-content">
+							<div class="content-card d-flex align-items-center">
+								<div class="icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="rgba(0,0,0,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M10.0544 2.0941C11.1756 1.13856 12.8248 1.13855 13.9461 2.09411L15.2941 3.24286C15.4542 3.37935 15.6533 3.46182 15.8631 3.47856L17.6286 3.61945C19.0971 3.73663 20.2633 4.9028 20.3805 6.37131L20.5214 8.13679C20.5381 8.34654 20.6205 8.54568 20.757 8.70585L21.9058 10.0539C22.8614 11.1751 22.8614 12.8243 21.9058 13.9456L20.757 15.2935C20.6206 15.4537 20.538 15.6529 20.5213 15.8627L20.3805 17.6281C20.2633 19.0967 19.0971 20.2628 17.6286 20.3799L15.8631 20.5208C15.6533 20.5376 15.4542 20.6201 15.2941 20.7566L13.9461 21.9053C12.8248 22.8609 11.1756 22.8608 10.0543 21.9053L8.70631 20.7566C8.54615 20.6201 8.34705 20.5376 8.1373 20.5209L6.37184 20.3799C4.9033 20.2627 3.73716 19.0966 3.61997 17.6281L3.47906 15.8627C3.46232 15.6529 3.37983 15.4538 3.24336 15.2936L2.0946 13.9455C1.13905 12.8243 1.13904 11.1752 2.09458 10.0539L3.24334 8.70589C3.37983 8.54573 3.46234 8.34654 3.47907 8.13678L3.61996 6.3713C3.73714 4.90278 4.90327 3.73665 6.3718 3.61946L8.13729 3.47857C8.34705 3.46183 8.54619 3.37935 8.70636 3.24286L10.0544 2.0941ZM12.6488 3.61632C12.2751 3.29782 11.7253 3.29781 11.3516 3.61632L10.0036 4.76509C9.5231 5.17456 8.92568 5.42201 8.29637 5.47223L6.5309 5.61312C6.04139 5.65219 5.65268 6.04089 5.61362 6.53041L5.47272 8.29593C5.4225 8.92521 5.17505 9.52259 4.76559 10.0031L3.61683 11.3511C3.29832 11.7248 3.29831 12.2746 3.61683 12.6483L4.76559 13.9963C5.17506 14.4768 5.4225 15.0743 5.47275 15.7035L5.61363 17.469C5.65268 17.9585 6.04139 18.3473 6.53092 18.3863L8.29636 18.5272C8.92563 18.5774 9.5231 18.8249 10.0036 19.2344L11.3516 20.3831C11.7254 20.7016 12.2751 20.7016 12.6488 20.3831L13.9969 19.2343C14.4773 18.8249 15.0747 18.5774 15.704 18.5272L17.4695 18.3863C17.959 18.3472 18.3478 17.9585 18.3868 17.469L18.5277 15.7035C18.5779 15.0742 18.8253 14.4768 19.2349 13.9964L20.3836 12.6483C20.7022 12.2746 20.7021 11.7249 20.3836 11.3511L19.2348 10.0031C18.8253 9.52259 18.5779 8.92519 18.5277 8.2959L18.3868 6.53041C18.3478 6.0409 17.959 5.65219 17.4695 5.61312L15.704 5.47224C15.0748 5.42203 14.4773 5.17455 13.9968 4.76508L12.6488 3.61632ZM14.8284 7.75718L16.2426 9.1714L9.17154 16.2425L7.75733 14.8282L14.8284 7.75718ZM10.2322 10.232C9.64641 10.8178 8.69667 10.8178 8.11088 10.232C7.52509 9.6463 7.52509 8.69652 8.11088 8.11073C8.69667 7.52494 9.64641 7.52494 10.2322 8.11073C10.818 8.69652 10.818 9.6463 10.2322 10.232ZM13.7677 15.8889C14.3535 16.4747 15.3032 16.4747 15.889 15.8889C16.4748 15.3031 16.4748 14.3534 15.889 13.7676C15.3032 13.1818 14.3535 13.1818 13.7677 13.7676C13.1819 14.3534 13.1819 15.3031 13.7677 15.8889Z"></path></svg>
+								</div>
+								<div class="content">
+									<h3>Conta digital e grátis</h3>
+									<p>serviços personalizados pra você!</p>
+								</div>
+							</div>
+							<div class="content-card d-flex align-items-center">
+								<div class="icon">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="rgba(0,0,0,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M3.00488 2.99979H21.0049C21.5572 2.99979 22.0049 3.4475 22.0049 3.99979V19.9998C22.0049 20.5521 21.5572 20.9998 21.0049 20.9998H3.00488C2.4526 20.9998 2.00488 20.5521 2.00488 19.9998V3.99979C2.00488 3.4475 2.4526 2.99979 3.00488 2.99979ZM20.0049 10.9998H4.00488V18.9998H20.0049V10.9998ZM20.0049 8.99979V4.99979H4.00488V8.99979H20.0049ZM14.0049 14.9998H18.0049V16.9998H14.0049V14.9998Z"></path></svg>
+								</div>
+								<div class="content">
+									<h3>Cartão de débito e crédito</h3>
+									<p>Além da carteira digital que você pode habilitar no seu smartphone.</p>
+								</div>
+							</div>
+							<div class="content-card d-flex align-items-center">
+								<div class="icon">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="rgba(0,0,0,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M14.8027 4C14.2922 4.88252 14 5.90714 14 7C14 10.3137 16.6863 13 20 13C21.0929 13 22.1175 12.7078 23 12.1973V18.9991C23 19.5519 22.5605 20 21.9975 20H2.00246C1.44882 20 1 19.5554 1 18.9991V5.00087C1 4.44811 1.43946 4 2.00246 4H14.8027ZM20 11C17.7909 11 16 9.20914 16 7C16 4.79086 17.7909 3 20 3C22.2091 3 24 4.79086 24 7C24 9.20914 22.2091 11 20 11ZM20 9C21.1046 9 22 8.10457 22 7C22 5.89543 21.1046 5 20 5C18.8954 5 18 5.89543 18 7C18 8.10457 18.8954 9 20 9ZM19 15V18H21V15H19Z"></path></svg>
+								</div>
+								<div class="content">
+									<h3>Maquininhas de Cartão</h3>
+									<p>Máquina de cartão para alavancar o seu negócio, com taxas diferenciadas!</p>
+								</div>
+							</div>
+							<div class="content-card d-flex align-items-center">
+								<div class="icon">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="rgba(0,0,0,1)"><path fill="none" d="M0 0h24v24H0z"></path><path d="M17.0047 16.0027H19.0047V4.00275H9.00468V6.00275H17.0047V16.0027ZM17.0047 18.0027V21.0019C17.0047 21.5546 16.5547 22.0027 15.9978 22.0027H4.01154C3.45548 22.0027 3.00488 21.5581 3.00488 21.0019L3.00748 7.00362C3.00759 6.45085 3.45752 6.00275 4.0143 6.00275H7.00468V3.00275C7.00468 2.45046 7.4524 2.00275 8.00468 2.00275H20.0047C20.557 2.00275 21.0047 2.45046 21.0047 3.00275V17.0027C21.0047 17.555 20.557 18.0027 20.0047 18.0027H17.0047ZM5.0073 8.00275L5.00507 20.0027H15.0047V8.00275H5.0073ZM7.00468 16.0027H11.5047C11.7808 16.0027 12.0047 15.7789 12.0047 15.5027C12.0047 15.2266 11.7808 15.0027 11.5047 15.0027H8.50468C7.12397 15.0027 6.00468 13.8835 6.00468 12.5027C6.00468 11.122 7.12397 10.0027 8.50468 10.0027H9.00468V9.00275H11.0047V10.0027H13.0047V12.0027H8.50468C8.22854 12.0027 8.00468 12.2266 8.00468 12.5027C8.00468 12.7789 8.22854 13.0027 8.50468 13.0027H11.5047C12.8854 13.0027 14.0047 14.122 14.0047 15.5027C14.0047 16.8835 12.8854 18.0027 11.5047 18.0027H11.0047V19.0027H9.00468V18.0027H7.00468V16.0027Z"></path></svg>
+								</div>
+								<div class="content">
+									<h3>Linha de crédito exclusiva para PCD’s.</h3>
+									<p>Nosso propósito é reabilitar os teus sonhos, por isso temos crédito especial pra você, PCD.</p>
+								</div>
+							</div>
+							<a class="default-btn text-decoration-none" href="https://webbanking.parabank.secure.srv.br/create-account" target="_blank">
+								<i class="ri-arrow-right-line"></i>
+								Abrir minha conta agora
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End About Area -->
+
+		<!-- Start Partner Area -->
+		<div class="partner-area pt-100 pb-75"  id="parceiros">
+			<div class="container">
+				<div class="section-title text-center" data-cue="slideInUp">
+					<span class="d-block">Parceiros</span>
+					<h2></h2>
+				</div>
+				
+                <div class="partner-slider-info" data-cue="slideInUp">
+                    <div class="partner-slider owl-carousel owl-theme">
+                        <div class="single-partner-logo">
+                            <img src="assets/images/partner/partner-1.png" alt="partner-2">
+                        </div>
+                        <div class="single-partner-logo">
+                            <img src="assets/images/partner/partner-2.png" alt="partner-2">
+                        </div>
+                        <div class="single-partner-logo">
+                            <img src="assets/images/partner/partner-3.png" alt="partner-3">
+                        </div>
+                        <div class="single-partner-logo">
+                            <img src="assets/images/partner/partner-4.png" alt="partner-4">
+                        </div>
+                        <div class="single-partner-logo">
+                            <img src="assets/images/partner/partner-1.png" alt="partner-2">
+                        </div>
+                        <div class="single-partner-logo">
+                            <img src="assets/images/partner/partner-2.png" alt="partner-2">
+                        </div>
+                        <div class="single-partner-logo">
+                            <img src="assets/images/partner/partner-3.png" alt="partner-3">
+                        </div>
+                        <div class="single-partner-logo">
+                            <img src="assets/images/partner/partner-4.png" alt="partner-4">
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</div>
+		<!-- End Partner Area -->
+
+		<!-- Start Choose Area -->
+		<div class="choose-area pt-100 pb-75">
+			<div class="container">
+				<div class="row" data-cue="slideInUp">
+					<div class="col-lg-6">
+						<div class="choose-content">
+							<div class="title">
+								<span class="d-block">PORQUE O PARABANK?</span>
+								<h2>Porque todos os dias, criamos produtos e serviços para reabilitar a vida de pessoas PCD's.</h2>
+							</div>
+							<div class="choose-value">
+								<i class="ri-check-double-fill"></i>
+								<span>Melhorar a acessibilidade aos serviços financeiros</span>
+							</div>
+							<div class="choose-value">
+								<i class="ri-check-double-fill"></i>
+								<span>Reabilitar vidas através da educação financeira</span>
+							</div>
+							<div class="choose-value">
+								<i class="ri-check-double-fill"></i>
+								<span>Melhorar a experiência da pessoa financeiro ao utilizar serviços financeiros</span>
+							</div>
+							<div class="choose-value">
+								<i class="ri-check-double-fill"></i>
+								<span>Atendimento personalizado e app feito pensando em você</span>
+							</div>
+							<div class="choose-value">
+								<i class="ri-check-double-fill"></i>
+								<span>Feito com, por e para PCD's</span>
+							</div>
+							<div class="choose-button">
+								<a class="default-btn text-decoration-none" href="https://webbanking.parabank.secure.srv.br/create-account" target="_blank">
+									<i class="ri-arrow-right-line"></i>
+									Abrir minha conta agora
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="choose-image">
+							<img src="assets/images/choose/choose-1.png" alt="choose-image">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Choose Area -->
+
+		<!-- Start Counter Area -->
+		<div class="counter-area pb-75">
+			<div class="container">
+				<div class="row" data-cues="fadeIn">
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-counter-card">
+							<h2>
+								<span class="counter">373</span>+
+							</h2>
+							<p>MEDALHISTAS OLÍMPICOS</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-counter-card">
+							<h2>
+								<span class="counter">1000</span>+
+							</h2>
+							<p>VIDAS REABILITADAS</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-counter-card">
+							<h2>
+								<span class="counter">359</span>+
+							</h2>
+							<p>NOVOS PRIFISSIONAIS PCS's</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-counter-card">
+							<h2>
+								<span class="counter">30</span>+
+							</h2>
+							<p>ALUNOS PCD'S DE ENGENHARIA DE SOFTWARE</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Counter Area -->
+
+		<!-- Start Contact Area -->
+		<div class="contact-area">
+			<div class="container">
+				<div class="contact-info-area">
+					<div class="row align-items-center" data-cues="fadeIn">
+						<div class="col-lg-3 col-sm-6 pe-0">
+							<div class="single-contact-info">
+								<div class="contact-call d-flex align-items-center">
+									<div class="icon">
+										<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+											<g clip-path="url(#clip0_288_89)">
+											  <path d="M13.5416 1.04162C13.5416 0.765354 13.6514 0.500402 13.8467 0.305052C14.0421 0.109701 14.307 -4.54765e-05 14.5833 -4.54765e-05C17.345 0.00298744 19.9928 1.10143 21.9456 3.05428C23.8985 5.00712 24.9969 7.65488 24.9999 10.4166C24.9999 10.6929 24.8902 10.9578 24.6948 11.1532C24.4995 11.3485 24.2345 11.4583 23.9583 11.4583C23.682 11.4583 23.4171 11.3485 23.2217 11.1532C23.0264 10.9578 22.9166 10.6929 22.9166 10.4166C22.9141 8.20725 22.0354 6.08907 20.4731 4.5268C18.9108 2.96454 16.7927 2.08577 14.5833 2.08329C14.307 2.08329 14.0421 1.97354 13.8467 1.77819C13.6514 1.58284 13.5416 1.31789 13.5416 1.04162ZM14.5833 6.24995C15.6883 6.24995 16.7482 6.68894 17.5296 7.47034C18.311 8.25174 18.7499 9.31155 18.7499 10.4166C18.7499 10.6929 18.8597 10.9578 19.055 11.1532C19.2504 11.3485 19.5153 11.4583 19.7916 11.4583C20.0679 11.4583 20.3328 11.3485 20.5282 11.1532C20.7235 10.9578 20.8333 10.6929 20.8333 10.4166C20.8316 8.75953 20.1726 7.17077 19.0009 5.99903C17.8291 4.82729 16.2404 4.16828 14.5833 4.16662C14.307 4.16662 14.0421 4.27637 13.8467 4.47172C13.6514 4.66707 13.5416 4.93202 13.5416 5.20829C13.5416 5.48455 13.6514 5.74951 13.8467 5.94486C14.0421 6.14021 14.307 6.24995 14.5833 6.24995ZM24.0552 17.4364C24.6588 18.0417 24.9978 18.8617 24.9978 19.7166C24.9978 20.5715 24.6588 21.3915 24.0552 21.9968L23.1072 23.0895C14.576 31.2572 -6.18443 10.502 1.85724 1.9437L3.05515 0.902038C3.66116 0.315243 4.47383 -0.00936935 5.31734 -0.00157168C6.16086 0.00622599 6.96739 0.345807 7.56245 0.943705C7.59474 0.975996 9.52495 3.48329 9.52495 3.48329C10.0977 4.08498 10.4165 4.88426 10.4152 5.71496C10.4138 6.54566 10.0924 7.34388 9.51765 7.9437L8.3114 9.46037C8.97895 11.0824 9.96043 12.5565 11.1994 13.798C12.4384 15.0395 13.9106 16.0239 15.5312 16.6947L17.0572 15.4812C17.6571 14.9069 18.4552 14.5859 19.2857 14.5847C20.1161 14.5836 20.9151 14.9024 21.5166 15.475C21.5166 15.475 24.0229 17.4041 24.0552 17.4364ZM22.6218 18.951C22.6218 18.951 20.1291 17.0333 20.0968 17.001C19.8822 16.7882 19.5923 16.6688 19.29 16.6688C18.9878 16.6688 18.6979 16.7882 18.4833 17.001C18.4552 17.0302 16.3541 18.7041 16.3541 18.7041C16.2125 18.8168 16.044 18.8907 15.8652 18.9185C15.6864 18.9462 15.5034 18.9269 15.3343 18.8625C13.2348 18.0808 11.3278 16.857 9.74248 15.274C8.15717 13.691 6.93057 11.7858 6.14578 9.68746C6.07619 9.51605 6.05351 9.32921 6.08005 9.14614C6.1066 8.96307 6.18142 8.79037 6.29682 8.64579C6.29682 8.64579 7.97078 6.5437 7.9989 6.51662C8.21168 6.30202 8.33107 6.01205 8.33107 5.70985C8.33107 5.40765 8.21168 5.11768 7.9989 4.90308C7.96661 4.87183 6.0489 2.37704 6.0489 2.37704C5.83109 2.18173 5.54682 2.07714 5.25437 2.08469C4.96192 2.09224 4.68343 2.21137 4.47599 2.41766L3.27807 3.45933C-2.59901 10.526 15.3916 27.5187 21.5843 21.6666L22.5333 20.5729C22.7557 20.3669 22.8892 20.0825 22.9057 19.7799C22.9223 19.4772 22.8204 19.18 22.6218 18.951Z" fill="#6600FC"/>
+											</g>
+										</svg>
+									</div>
+									<div class="content">
+										<h3>Nosso Whatsapp</h3>
+										<a class="text-decoration-none" href="https://wa.me/5511992607966">(11) 99260-7966</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-sm-6 p-0">
+							<div class="single-contact-info">
+								<div class="contact-social">
+									<ul class="list-unstyled ps-0 mb-0 list">
+										<li class="d-inline-block">
+											<a class="text-decoration-none" target="_blank" href="https://www.facebook.com/parabankoficial">
+												<i class="ri-facebook-circle-line"></i>
+											</a>
+										</li>
+										<li class="d-inline-block">
+											<a class="text-decoration-none" target="_blank" href="https://www.instagram.com/parabank_oficial/">
+												<i class="ri-instagram-line"></i>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="single-contact-info">
+								<div class="contact-submit d-flex align-items-center justify-content-between">
+									<h3>Inscreva-se em nossa Newsletter</h3>
+									<form>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Insira seu email">
+											<button type="submit">
+												<i class="ri-send-plane-fill"></i>
+												Enviar
+											</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Contact Area -->
+
+		<!-- Start Footer Area -->
+		<div class="footer-area">
+			<div class="container">
+				<div class="footer-info-area" data-cue="slideInUp">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="single-footer-info ms-0">
+								<a class="text-decoration-none logo" href="index.html">
+									<img src="assets/images/white-logo.png" alt="logo">
+								</a>
+								<p></p>
+							</div>
+						</div>
+						<div class="col-lg-8">
+							<div class="row justify-content-center">
+								<div class="col-lg-4 col-sm-6 col-md-4">
+									<div class="single-footer-info">
+										<h3>Nossos contatos</h3>
+										<ul class="list-unstyled ps-0 mb-0">
+											<li>
+												<strong>Endereço : </strong>R. José Versolato, 111 - Centro São Bernardo do Campo - SP CEP 09750-730
+											</li>
+											<li>
+												<strong>Email:</strong>
+												<a class="text-decoration-none" href="mailto:atendimento@parabank.com.br">atendimento@parabank.com.br</a>
+											</li>
+											<li>
+												<strong>Telefone:</strong>
+												<a class="text-decoration-none" href="https://wa.me/5511992607966 ">(11) 99260-7966</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-lg-4 col-sm-6 col-md-4">
+									<div class="single-footer-info">
+										<h3>Outros Links</h3>
+										<ul class="list-unstyled ps-0 mb-0">
+											<li>
+												<a class="text-decoration-none" href="contact.html">Fale conosco</a>
+											</li>
+											<li>
+												<a class="text-decoration-none" href="#parceiros">Parceiros</a>
+											</li>
+											<li>
+												<a class="text-decoration-none" href="privacy-policy.html">Política de privacidade</a>
+											</li>
+											<li>
+												<a class="text-decoration-none" href="terms-conditions.html">Termos e condições</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Footer Area -->
+
+		<!-- Start Copyright Area -->
+		<div class="copyright-area">
+			<div class="container">
+				<div class="copyright-content text-center">
+					<p>Copyright @ 2024 <strong>Parabank</strong>, Todos os direitos reservados.</p>
+				</div>
+			</div>
+		</div>
+		<!-- End Copyright Area -->
+
+		<!-- Back to Top -->
+		<div class="go-top">
+			<i class="ri-arrow-up-line"></i>
+		</div>
+
+        <!-- Js Files -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/js/odometer.min.js"></script>
+        <script src="assets/js/meanmenu.min.js"></script>
+        <script src="assets/js/scrollCue.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/jquery.magnific.popup.js"></script>
+        <script src="assets/js/custom.js"></script>
+    </body>
+</html>
