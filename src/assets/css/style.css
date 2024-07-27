@@ -173,9 +173,9 @@ Default Button Style
   opacity: 1;
   visibility: visible;
   position: absolute;
-  border-radius: 5px;
+  border-radius: 90px;
   transition: var(--transition);
-  background: linear-gradient(96deg, #6209e6 0%, #050207 51.56%, #320460 100%);
+  background: linear-gradient(96deg, #8C73E5 0%, #8C73E5 51.56%, #8C73E5 100%);
 }
 .default-btn::after {
   left: 0;
@@ -187,9 +187,9 @@ Default Button Style
   z-index: -1;
   visibility: hidden;
   position: absolute;
-  border-radius: 5px;
+  border-radius: 90px;
   transition: var(--transition);
-  background: linear-gradient(293deg, #050207 0%, #6209e6 51.56%, #320460 100%);
+  background: linear-gradient(293deg, #01020a, #01020a, #01020a);
 }
 .default-btn:hover {
   color: var(--whiteColor);
@@ -237,7 +237,7 @@ Default Button Style
   opacity: 1;
   visibility: visible;
   position: absolute;
-  border-radius: 5px;
+  border-radius: 100px;
   transition: var(--transition);
   background: linear-gradient(96deg, #000000 0%, #050207 51.56%, #000000 100%);
 }
@@ -251,9 +251,9 @@ Default Button Style
   z-index: -1;
   visibility: hidden;
   position: absolute;
-  border-radius: 5px;
+  border-radius: 100px;
   transition: var(--transition);
-  background: linear-gradient(293deg, #0e0a0a 0%, #341b58 51.56%, #131015 100%);
+  background: linear-gradient(293deg,  #8C73E5 0%, #8C73E5 51.56%, #8C73E5 100%);
 }
 .default-btn-2:hover {
   color: var(--whiteColor);
@@ -3879,7 +3879,7 @@ Page Title Area Style
   position: absolute;
   border-radius: 100%;
   display: inline-block;
-  background-color: #b108ff;
+  background-color: #8C73E5 0%; 
   transform: translateY(-50%);
 }
 .blog-details-right-sidebar .leave-reply form button::after {
@@ -3892,7 +3892,7 @@ Page Title Area Style
   position: absolute;
   border-radius: 5px;
   transition: var(--transition);
-  background: linear-gradient(96deg, #6600FC 0%, #080609 51.56%, #b108ff 100%);
+  background: linear-gradient(96deg,#080609 0%, #080609 51.56%,#080609);
 }
 .blog-details-right-sidebar .leave-reply form button:hover {
   color: var(--whiteColor);
@@ -4135,7 +4135,7 @@ Back to Top Style
   cursor: pointer;
   position: fixed;
   line-height: 45px;
-  border-radius: 5px;
+  border-radius: 200px;
   visibility: hidden;
   text-align: center;
   transition: var(--transition);
@@ -4193,3 +4193,67 @@ Back to Top Style
   visibility: visible;
   transform: translateY(-95%);
 }/*# sourceMappingURL=style.css.map */
+
+
+/* Ajusta a largura do modal para torná-lo quadrado */ 
+/* Modal Confirmação Inicio ###*/ 
+.modal-dialog {
+  max-width: 500px; /* Define uma largura fixa para o modal */
+  width: 100%; /* Permite que o modal seja responsivo */
+}
+
+.modal-content {
+  border-radius: 0; /* Remove os cantos arredondados para uma aparência quadrada */
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #fff; /* Define o fundo do modal como branco */
+  color: #000; /* Define a cor do texto como preto */
+}
+
+.modal-header {
+  border-bottom: none; /* Remove a borda inferior da cabeçalho do modal */
+  padding-bottom: 0; /* Remove o padding inferior para alinhar o botão de fechar */
+}
+
+.modal-body {
+  padding: 20px; /* Adiciona padding para o corpo do modal */
+}
+
+.modal-footer {
+  border-top: none; /* Remove a borda superior do rodapé do modal */
+  justify-content: center; /* Centraliza os botões no rodapé do modal */
+}
+
+.btn-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem; /* Tamanho do ícone de fechar */
+  color: #000; /* Cor do ícone de fechar */
+}
+
+.btn-primary {
+  background-color:  #8C73E5 0%; /* Cor do botão OK */
+  border-color:  #8C73E5 0%;
+  color:  #8C73E5 0%;
+}
+
+.btn-primary:hover {
+  background-color:  #8C73E5 0%; /* Cor ao passar o mouse sobre o botão OK */
+  border-color: #8C73E5 0%; 
+}
+
+.btn-secondary {
+  background-color:  #8C73E5 0%; /* Cor do botão Cancelar */
+  border-color: #8C73E5 0%;
+  color: #fff; /* Cor do texto do botão Cancelar */
+}
+
+.btn-secondary:hover {
+  background-color:  #8C73E5 0%;/* Cor ao passar o mouse sobre o botão Cancelar */
+  border-color:  #8C73E5 0%;
+/* Modal Confirmação FIM ### */ 
+
+
+
+
