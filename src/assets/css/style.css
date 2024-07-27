@@ -50,10 +50,10 @@ Default CSS
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
   --body-font-family: "Poppins", sans-serif;
-  --heading-font-family: "Libre Franklin", sans-serif;
+  --heading-font-family: "Gotham book", verdana;
   --fontSize: 16px;
-  --primaryColor: #750092;
-  --secondaryColor: #520070;
+  --primaryColor: #8C73E5;
+  --secondaryColor: #000000;
   --whiteColor: #ffffff;
   --blackColor: #0C0B0B;
   --paragraphColor: #666;
@@ -3533,7 +3533,7 @@ Solutions Area Style
 Page Title Area Style
 ===========================================*/
 .page-title-area {
-  background-color: #c0afcc;
+  background-color: #000000;
   padding-top: 105px;
   padding-bottom: 105px;
 }
@@ -3541,13 +3541,14 @@ Page Title Area Style
 .page-title-content h1 {
   font-size: 40px;
   margin-bottom: 15px;
+  color: #ffffff;
 }
 .page-title-content ul li {
   font-weight: 500;
   padding-right: 10px;
   position: relative;
   font-family: var(--heading-font-family);
-  color: var(--secondaryColor);
+  color: var(--whiteColor);
 }
 .page-title-content ul li a {
   color: var(--blackColor);
