@@ -22,28 +22,52 @@
 
     <body>
 
-        <!-- Start Modal -->
-        <div class="modal search-modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Search">
-                                <button type="submit"><i class="ri-search-2-line"></i></button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+   <!-- Start Modal -->
+   <div class="modal search-modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Atenção</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="ri-close-line"></i></button>
+            <div class="modal-body">
+                <p>Se sua conta é PJ, o Internet Banking é pra você. Deseja continuar?</p>
+            </div>
+            <div class="modal-footer">
+				<a class="default-btn-2 text-decoration-none" href="index.html">
+					&emsp;Sair&emsp;
+				</a>
+                <a href="https://ibe.parabank.rubcube.com/login" class="default-btn text-decoration-none">&emsp;Entrar&emsp;</a>
+            </div>
         </div>
+    </div>
+</div>
+<!-- End Modal -->
+
         <!-- End Modal -->
 
-		<!-- Start Navbar Area --> 
+	   <!-- Start Modal -->
+	   <div class="modal search-modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Atenção</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p>Se sua conta é PJ, o Internet Banking é pra você. Deseja continuar?</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+					<a href="https://ibe.parabank.rubcube.com/login" class="btn btn-primary">OK</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+			<!-- End Modal -->
+	
+				<!-- Start Navbar Area --> 
 		<div class="navbar-area fixed-top">
 			<div class="mobile-responsive-nav">
 				<div class="container">
@@ -79,18 +103,18 @@
 	
 								<li class="nav-item">
 									<a href="#" class="nav-link dropdown-toggle">
-										Para você 
+										Pra você 
 									</a>
 	
 									<ul class="dropdown-menu">
 										<li class="nav-item">
-											<a href="#para-controle.html" class="nav-link">Para controle</a>
+											<a href="para-controle.html" class="nav-link">Para controle</a>
 										</li>
 										<li class="nav-item">
-											<a href="#parceiros" class="nav-link">Parceiros</a>
+											<a href="index.html#parceiros" class="nav-link">Parceiros</a>
 										</li>
 										<li class="nav-item">
-											<a href="#parceiros" class="nav-link">Solicite crédito</a>
+											<a href="https://parainstituto.org/" class="nav-link">Para Instituto</a>
 										</li>
 										<li class="nav-item">
 											<a href="contact.html" class="nav-link">Se torne um parceiro</a>
@@ -104,18 +128,9 @@
 							</ul>
 	
 							<div class="others-options">
-								<ul>
-									<!--
-									
-									
+								<ul>																		
 									<li>
-										<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-											<i class="ri-search-line"></i>
-										</button>
-									</li>
-									-->
-									<li>
-										<a class="default-btn-2 text-decoration-none" href="https://webbanking.parabank.secure.srv.brcreate-account/">
+										<a class="default-btn-2 text-decoration-none" href="https://e3l1.short.gy/parabank" target="_blank">
 											<i class="ri-bank-card-2-line"></i>
 											&emsp;Quero ser um Parabanker!&emsp;
 										</a>
@@ -125,14 +140,36 @@
 										</a>
 									</li>
 									<li>
-										<a class="default-btn text-decoration-none" href="https://ibe.parabank.rubcube.com/login" >
-											<i class="ri-arrow-right-line"></i>
-											&emsp;Login&emsp;
-										</a>
+										<div class="tooltip-container">
+											<a class="default-btn text-decoration-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+												<i class="ri-arrow-right-line"></i>
+												&emsp;Internet Banking &emsp;
+											</a>
+											
+										</div>
+									
+										<!-- Modal -->
+										<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+											<div class="modal-dialog">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h5 class="modal-title" id="exampleModalLabel">Internet Banking</h5>
+														<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+													</div>
+													
+												
+												</div>
+											</div>
+										</div>
+									
 										<div class=""></div>
 										<a class="quote d-none text-decoration-none" href="contact.html">
 											<i class="ri-chat-quote-line"></i>
 										</a>
+									</li>
+									
+									<li>
+										
 									</li>
 								</ul>
 							</div>
