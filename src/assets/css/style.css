@@ -49,14 +49,14 @@ Default CSS
 =================================================*/
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
-  --body-font-family: "Poppins", sans-serif;
+  --body-font-family: "Gotham book", verdana;
   --heading-font-family: "Gotham book", verdana;
   --fontSize: 16px;
   --primaryColor: #8C73E5;
   --secondaryColor: #000000;
   --whiteColor: #ffffff;
   --blackColor: #0C0B0B;
-  --paragraphColor: #666;
+  --paragraphColor: #1e1b20;
   --transition: .5s;
 }
 
@@ -1063,7 +1063,7 @@ Hero Area Style
   position: absolute;
   border-radius: 100%;
   display: inline-block;
-  background-color: #050202;
+  background-color: #ffffff;
   transform: translateY(-50%);
 }
 .hero-content .hero-button .demo::before {
@@ -1701,9 +1701,9 @@ About Area Style
   position: absolute;
 }
 .about-image .image-2 img {
-  width: 155px;
-  height: 155px;
-  border-radius: 0px 30px;
+  width: 300px;
+  height: 300px;
+  border-radius: 0px 45px;
 }
 .about-image .image-3 {
   right: 0;
@@ -2884,7 +2884,7 @@ Contact Area Style
   position: absolute;
   border-radius: 5px;
   transition: var(--transition);
-  background: linear-gradient(96deg, #000000 0%, #310251 51.56%, #000000 100%);
+  background: linear-gradient(96deg, #8C73E5 0%, #8C73E5 51.56%, #8C73E5 100%);
 }
 .single-contact-info .contact-submit form .form-group button::after {
   left: 0;
@@ -2898,7 +2898,7 @@ Contact Area Style
   position: absolute;
   border-radius: 5px;
   transition: var(--transition);
-  background: linear-gradient(293deg, #121015 0%, #050404 51.56%, #807f7e 100%);
+  background: linear-gradient(293deg, #000000 0%, #000000 51.56%, #000000 100%);
 }
 .single-contact-info .contact-submit form .form-group button:hover {
   color: var(--whiteColor);
