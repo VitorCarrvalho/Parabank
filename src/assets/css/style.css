@@ -2732,7 +2732,7 @@ Blog Area Style
 Contact Area Style
 =================================================*/
 .contact-area {
-  background-color: #1B2336;
+  background-color: #8C73E5;
 }
 .contact-area.pages-style {
   background-color: transparent;
@@ -2743,7 +2743,7 @@ Contact Area Style
 }
 
 .single-contact-info {
-  z-index: 1;
+  z-index: 10;
   position: relative;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -2754,7 +2754,7 @@ Contact Area Style
   right: 0;
   top: 0;
   height: 100%;
-  border-right: 1px solid rgb(36, 44, 62);
+  border-right: 1px solid rgb(155, 79, 243);
 }
 .single-contact-info .contact-call .icon {
   width: 80px;
@@ -2771,7 +2771,7 @@ Contact Area Style
   transition: var(--transition);
 }
 .single-contact-info .contact-call .icon:hover svg g path {
-  fill: #0C0B0B;
+  fill: #ffffff;
 }
 .single-contact-info .contact-call .content h3 {
   font-size: 16px;
@@ -2795,7 +2795,7 @@ Contact Area Style
   right: 30px;
   top: -55px;
   height: 141px;
-  border-right: 1px solid rgb(36, 44, 62);
+  border-right: 1px solid rgb(0, 0, 0);
 }
 .single-contact-info .contact-social .list li {
   margin-right: 12px;
@@ -2806,11 +2806,11 @@ Contact Area Style
   font-size: 20px;
   display: inline-block;
   transition: var(--transition);
-  color: rgb(141, 145, 154);
+  color: rgb(1, 1, 2);
 }
 .single-contact-info .contact-social .list li a:hover {
   transform: translateY(-7px);
-  background: linear-gradient(90deg, #0a090c 0%, #1c014f 50.09%, #010100 100%);
+  background: linear-gradient(90deg, #ffffff 0%, #ffffff 50.09%, #ffffff 100%);
   -webkit-background-clip: text;
   color: transparent;
   text-align: center;
@@ -2837,7 +2837,7 @@ Contact Area Style
   border-radius: 5px;
   padding-left: 20px;
   color: rgb(0, 0, 0);
-  background-color: rgb(50, 57, 74);
+  background-color: rgb(255, 255, 255);
 }
 .single-contact-info .contact-submit form .form-group .form-control::-moz-placeholder {
   color: rgb(111, 116, 128);
@@ -4036,13 +4036,13 @@ Page Title Area Style
 Footer Area Style
 =================================================*/
 .footer-area {
-  background-color: #1B2336;
+  background-color: #8C73E5;
 }
 
 .footer-info-area {
   padding-top: 80px;
   padding-bottom: 55px;
-  border-bottom: 1px solid #242C3E;
+  border-bottom: 1px solid #000000;
 }
 
 .single-footer-info {
@@ -4110,7 +4110,7 @@ Footer Area Style
 }
 
 .copyright-area {
-  background-color: #1B2336;
+  background-color: #8C73E5;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -4120,7 +4120,7 @@ Footer Area Style
   font-family: var(--heading-font-family);
 }
 .copyright-content p strong {
-  color: #b108ff;
+  color: #000000;
 }
 
 /*================================================
@@ -4254,7 +4254,3 @@ Back to Top Style
   background-color:  #8C73E5 0%;/* Cor ao passar o mouse sobre o botão Cancelar */
   border-color:  #8C73E5 0%;
 /* Modal Confirmação FIM ### */ 
-
-
-
-
