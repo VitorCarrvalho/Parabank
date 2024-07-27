@@ -30,30 +30,25 @@
 
     <body>
 
-        <!-- Start Modal -->
-		 <!--
-		
-		
-		 
-        <div class="modal search-modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Search">
-                                <button type="submit"><i class="ri-search-2-line"></i></button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+   <!-- Start Modal -->
+   <div class="modal search-modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Confirmação</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="ri-close-line"></i></button>
+            <div class="modal-body">
+                <p>Se sua conta é PJ, o Internet Banking é pra você. Deseja continuar?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <a href="https://ibe.parabank.rubcube.com/login" class="btn btn-primary">OK</a>
+            </div>
         </div>
-		-->
+    </div>
+</div>
+
         <!-- End Modal -->
 
 			<!-- Start Navbar Area --> 
@@ -117,16 +112,7 @@
 						</ul>
 
 						<div class="others-options">
-							<ul>
-								<!--
-								
-								
-								<li>
-									<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-										<i class="ri-search-line"></i>
-									</button>
-								</li>
-								-->
+							<ul>																		
 								<li>
 									<a class="default-btn-2 text-decoration-none" href="https://webbanking.parabank.secure.srv.br/create-account" target="_blank">
 										<i class="ri-bank-card-2-line"></i>
@@ -138,14 +124,36 @@
 									</a>
 								</li>
 								<li>
-									<a class="default-btn text-decoration-none" href="https://accounts.parabank.secure.srv.br/auth/realms/parabank/protocol/openid-connect/auth?client_id=wl-webbanking&redirect_uri=https%3A%2F%2Fwebbanking.parabank.secure.srv.br%2Fapp%2Fvalidate-qrcode&state=7d91f0ed-6752-494d-8ca5-27f4eff06ef0&response_mode=fragment&response_type=code&scope=openid&nonce=02c57118-4194-4b71-b2de-b6995d384ca2">
-										<i class="ri-arrow-right-line"></i>
-										&emsp;Login&emsp;
-									</a>
+									<div class="tooltip-container">
+										<a class="default-btn text-decoration-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+											<i class="ri-arrow-right-line"></i>
+											&emsp;Internet Banking &emsp;
+										</a>
+										
+									</div>
+								
+									<!-- Modal -->
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="exampleModalLabel">Internet Banking</h5>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												
+											
+											</div>
+										</div>
+									</div>
+								
 									<div class=""></div>
 									<a class="quote d-none text-decoration-none" href="contact.html">
 										<i class="ri-chat-quote-line"></i>
 									</a>
+								</li>
+								
+								<li>
+									
 								</li>
 							</ul>
 						</div>
