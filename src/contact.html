@@ -23,27 +23,27 @@
     <body>
 
 
-   <!-- Start Modal -->
-   <div class="modal search-modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Atenção</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Se sua conta é PJ, o Internet Banking é pra você. Deseja continuar?</p>
-            </div>
-            <div class="modal-footer">
-				<a class="default-btn-2 text-decoration-none" href="index.html">
-					&emsp;Sair&emsp;
-				</a>
-                <a href="https://ibe.parabank.rubcube.com/login" class="default-btn text-decoration-none">&emsp;Entrar&emsp;</a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Modal -->
+   		<!-- Start Modal -->
+		<div class="modal search-modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Atenção</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<p>Se sua conta é PJ, o Internet Banking é pra você. Deseja continuar?</p>
+					</div>
+					<div class="modal-footer">
+						<a class="default-btn-2 text-decoration-none" href="index.html">
+							&emsp;Sair&emsp;
+						</a>
+						<a href="https://ibe.parabank.rubcube.com/login" class="default-btn text-decoration-none">&emsp;Entrar&emsp;</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Modal -->
 
 				<!-- Start Navbar Area --> 
 				<div class="navbar-area fixed-top">
@@ -271,55 +271,57 @@
                 </div>
             </div>  
         </div>
-        <!-- End Contact Area -->
+        	<!-- End Contact Area -->
 
-        <!-- Start Contact Form Area -->
-        <div class="contact-form-area pb-75">
-            <div class="container">
-                <div class="section-title text-center" data-cue="slideInUp">
-                    <span class="d-block">Envie sua solicitação e nós te atenderemos</span>
-                    <h2>Nós queremos te ajudar.</h2>
-                </div>
-                <div class="contact-form-info" data-cue="slideInUp">
-                    <form>
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Nome">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Email">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Telefone">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Assunto">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control textarea" placeholder="Descreva aqui como podemos te ajudar!" rows="3"></textarea>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
-                                Salvar meu nome e email para futuras solicitações neste site.
-                            </label>
-                        </div>
-                        <button type="submit">Enviar Mensagem</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <!-- End Contact Form Area -->
-        
+        	<!-- Start Contact Form Area -->
+			<div class="contact-form-area pb-75">
+				<div class="container">
+					<div class="section-title text-center" data-cue="slideInUp">
+						<span class="d-block">Envie sua solicitação e nós te atenderemos</span>
+						<h2>Nós queremos te ajudar.</h2>
+					</div>
+					<div class="contact-form-info " data-cue="slideInUp">
+						<form id="contactForm">
+							<div class="row">
+								<div class="col-lg-6 col-md-6">
+									<div class="form-group">
+										<input type="text" id="name" class="form-control" placeholder="Nome">
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="form-group">
+										<input type="email" id="email" class="form-control" placeholder="Email">
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="form-group">
+										<input type="text" id="telefone" class="form-control" placeholder="Telefone">
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="form-group">
+										<input type="text" id="assunto" class="form-control" placeholder="Assunto">
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<textarea class="form-control textarea" id="desc" placeholder="Descreva aqui como podemos te ajudar!" rows="3"></textarea>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+								<label class="form-check-label" for="flexCheckDefault">
+									Salvar meu nome e email para futuras solicitações neste site.
+								</label>
+							</div>
+							<button type="submit">Enviar Mensagem
+								<i class="ri-arrow-right-line"></i>
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+        	<!-- End Contact Form Area -->
+
 			<!-- Start Contact Area -->
 			<div class="contact-area">
 				<div class="container">
@@ -347,6 +349,11 @@
 									<div class="contact-social">
 										<ul class="list-unstyled ps-0 mb-0 list">
 											<li class="d-inline-block">
+												<a class="text-decoration-none" target="_blank" href="https://www.linkedin.com/company/mundoparabank/">
+													<i class="ri-linkedin-box-fill" :before></i>
+												</a>
+											</li>
+											<li class="d-inline-block">
 												<a class="text-decoration-none" target="_blank" href="https://www.facebook.com/parabankoficial">
 													<i class="ri-facebook-circle-line"></i>
 												</a>
@@ -354,6 +361,11 @@
 											<li class="d-inline-block">
 												<a class="text-decoration-none" target="_blank" href="https://www.instagram.com/parabank_oficial/">
 													<i class="ri-instagram-line"></i>
+												</a>
+											</li>
+											<li class="d-inline-block">
+												<a class="text-decoration-none" target="_blank" href="https://www.youtube.com/@Parabankoficial">
+													<i class="ri-youtube-line"></i>
 												</a>
 											</li>
 										</ul>
@@ -460,4 +472,37 @@
 			<script src="assets/js/owl.carousel.min.js"></script>
 			<script src="assets/js/jquery.magnific.popup.js"></script>
 			<script src="assets/js/custom.js"></script>
-		</body>
+			<script>
+				document.getElementById('contactForm').addEventListener('submit', function(event) {
+					event.preventDefault();
+		
+					const formData = {
+						nome: document.getElementById('name').value,
+						email: document.getElementById('email').value,
+						telefone: document.getElementById('telefone').value,
+						assunto: document.getElementById('assunto').value,
+						descricao: document.getElementById('desc').value,
+					};
+		
+					fetch('http://localhost:8080/mailer/send', {
+						method: 'POST',
+						headers: {
+							'Content-Type': 'application/json'
+						},
+						body: JSON.stringify(formData)
+					})
+					.then(response => {
+						if(response.status === 200){
+							alert('Obrigado! Em breve nosso time entrará em contato com você.');
+						}else{
+							alert('Erro ao enviar o email, por favor tente novamente mais tarde.');
+						}
+					})
+					.catch((error) => {
+						console.error('Error:', error);
+						alert('Erro ao enviar email.');
+					});
+				});
+			</script>
+	</body>
+</html>
