@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="assets/css/responsive.css">
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16613099830"></script>
+		<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 		<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
@@ -509,8 +510,8 @@
 										<h style="color: white;">Inscreva-se em nossa Newsletter</h3>
 										<form>
 											<div class="form-group">
-												<input type="text" class="form-control" placeholder="Insira seu email">
-												<button type="submit">
+												<input id="email" type="text" class="form-control" placeholder="Insira seu email">
+												<button type="submit" >
 													<i class="ri-send-plane-fill"></i>
 													Enviar
 												</button>
@@ -593,7 +594,29 @@
 					</div>
 				</div>
 			</div>
-	
+			<script>
+				document.getElementById('form-group').addEventListener('submit', function(event) {
+					event.preventDefault();
+		
+					const formData = {
+						email: document.getElementById('email').value
+					};
+		
+					fetch('http://localhost:8080/mailer/newsletter/'+ formData.email, {
+						method: 'POST',
+						headers: {
+							'Content-Type': 'application/json'
+						}
+					})
+					.then(response => {
+						alert("Obrigado por se inscrever em nossa Newsletter.")
+					})
+					.catch((error) => {
+						console.error('Error:', error);
+						alert('Erro ao enviar email. Por favor tente mais tarde');
+					});
+				});
+			</script>
 			<!-- Js Files -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/bootstrap.bundle.min.js"></script>
@@ -604,3 +627,5 @@
 			<script src="assets/js/jquery.magnific.popup.js"></script>
 			<script src="assets/js/custom.js"></script>
 		</body>
+
+</html>
